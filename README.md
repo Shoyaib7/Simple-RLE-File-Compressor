@@ -12,9 +12,9 @@ Works on any file type by operating in binary mode.
 
 How to Build
 You will need a C compiler like GCC. To compile the program, run the following command in your terminal. This will create an executable file.
-
-```gcc mycompress.c -o mycompress```
-
+```
+gcc mycompress.c -o mycompress
+```
 (On Windows, this command will produce ```mycompress.exe```)
 
 How to Use
@@ -30,7 +30,10 @@ On Windows (PowerShell or CMD): Prefix the program name with ```.\```
 Important Note: File Paths with Spaces
 If your input or output file path contains spaces, you must wrap the entire path in double quotes (```"```).
 
-Example: ```.\mycompress.exe -c "C:\Users\Your Name\Documents\my file.txt" output.rle```
+Example: 
+```
+.\mycompress.exe -c "C:\Users\Your Name\Documents\my file.txt" output.rle
+```
 
 Examples
 Compression
@@ -40,14 +43,20 @@ Linux/macOS:
 ```
 Windows:
 
-```.\mycompress.exe -c original.txt compressed.rle```
+```
+.\mycompress.exe -c original.txt compressed.rle
+```
 
 Decompression
 Linux/macOS:
 
-```./mycompress -d compressed.rle decompressed.txt```
+```
+./mycompress -d compressed.rle decompressed.txt
+```
 
 Windows (with a path containing spaces):
 
-```.\mycompress.exe -d "C:\Users\My User\Desktop\compressed.rle" decompressed.txt```
+```
+.\mycompress.exe -d "C:\Users\My User\Desktop\compressed.rle" decompressed.txt
+```
 
