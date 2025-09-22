@@ -35,9 +35,9 @@ Example: ```.\mycompress.exe -c "C:\Users\Your Name\Documents\my file.txt" outpu
 Examples
 Compression
 Linux/macOS:
-
-```./mycompress -c original.txt compressed.rle```
-
+```
+./mycompress -c original.txt compressed.rle
+```
 Windows:
 
 ```.\mycompress.exe -c original.txt compressed.rle```
